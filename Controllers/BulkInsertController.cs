@@ -44,7 +44,8 @@ namespace BulkInsertAPI.Controllers
                 return BadRequest("No records found in the CSV file.");
             }
 
-            if (assigments.Count > 70000)
+            //TODO: maxlimit to be configured
+            if (assigments.Count > 50000)
             {
                 return BadRequest(" records exceeds the limit of 50000.");
             }
