@@ -1,9 +1,9 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
-using CsvHelper.Configuration.Attributes;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 using BulkInsertAPI.Infrastructure.Services;
+using BulkInsertAPI.Models;
 
 namespace BulkInsertAPI.Controllers
 {

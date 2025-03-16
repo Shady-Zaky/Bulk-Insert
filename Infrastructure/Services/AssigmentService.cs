@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using BulkInsertAPI.Infrastructure.Repos;
 using System.Threading.Tasks;
+using BulkInsertAPI.Models;
 
 namespace BulkInsertAPI.Infrastructure.Services
 {
